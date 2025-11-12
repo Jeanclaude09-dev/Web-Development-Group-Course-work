@@ -5,3 +5,43 @@
   padding: 0;
   margin: 0;
 }
+
+@import "tailwindcss";
+
+main {
+  min-height: calc(100dvh - 56px);
+  width: 100%;
+  background-color: lightblue;
+}
+
+footer {
+  padding: 25px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 0 15px 0;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+.footer-left h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.footer-right {
+  display: flex;
+  justify-content: space-around;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+.copyright {
+  padding: 15px 0;
+}

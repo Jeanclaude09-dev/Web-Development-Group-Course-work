@@ -3,12 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <nav
+        class="h-14 w-full bg-amber-950 text-white flex justify-around items-center sticky top-0 p-1"
+      >
+        <div class="font-bold text-2xl cursor-pointer">LOGO</div>
+        <ul class="list-none flex gap-3">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="product.html">Product</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="login.html">Log in / Sign in</a></li>
+        </ul>
+      </nav>
+    </header>
     <main></main>
-    <footer></footer>
+    <footer class="bg-amber-950">
+      <section class="footer">
+        <article class="footer-left">
+          <h1 class="">LOGO</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            deserunt temporibus officiis adipisci repellendus quod, ratione,
+            quisquam cumque modi voluptatum a veniam commodi ipsa nulla ab totam
+            culpa dolore? Vitae.
+          </p>
+          <div class="footer-icons"></div>
+        </article>
+        <article class="footer-right">
+          <div class="links">
+            <h3>Quick links</h3>
+            <a href="#">Lorem, ipsum.</a>
+            <a href="#">Lorem, ipsum.</a>
+            <a href="#">Lorem, ipsum.</a>
+            <a href="#">Lorem, ipsum.</a>
+          </div>
+          <div class="links">
+            <h3>Social</h3>
+            <a href="#">Lorem, ipsum.</a>
+            <a href="#">Lorem, ipsum.</a>
+            <a href="#">Lorem, ipsum.</a>
+            <a href="#">Lorem, ipsum.</a>
+          </div>
+          <div class="links">
+            <h3>Legal</h3>
+            <a href="#">Terms of service</a>
+            <a href="#">Privacy policy</a>
+            <a href="#">Cookie policy</a>
+          </div>
+        </article>
+      </section>
+      <hr />
+      <article class="copyright">&copy; Copyright 2025 Our Site</article>
+    </footer>
   </body>
 </html>

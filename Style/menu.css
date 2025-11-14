@@ -1,6 +1,7 @@
-main {
-  min-height: 100vh;
-  background: url(../Images/Menu-hero.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
+
+@import "tailwindcss";

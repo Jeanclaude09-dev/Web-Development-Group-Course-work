@@ -284,19 +284,16 @@ const products = [
   },
 ];
 
-const productsData = [...products];
-const productsContainer = document.getElementById("product-preview");
-
-console.log(productsData);
-console.log(products);
+const productsData = [...products]; //create an array that ressemnle products
+const productsContainer = document.getElementById("product-preview"); //get the id of the section
 
 document.addEventListener("DOMContentLoaded", () => {
   renderProducts();
-});
+}); //everytime we reload, this load the cards
 
 const renderProducts = () => {
   if (!productsContainer) {
-    return;
+    return; //
   }
   productsContainer.innerHTML = "";
   // productsData.forEach((product) => {
@@ -313,7 +310,8 @@ const createProductCard = (product) => {
   //create the div
   const card = document.createElement("div");
   //give a style to the div
-  card.className = "rounded-xl shadow-xl h-96 overflow-hidden";
+  card.className =
+    "rounded-xl shadow-sm h-96 overflow-hidden fadeInUp hover:shadow-lg transition-all duration-300 cursor-pointer";
   //if you don't use tailwind use card.classList.add/remove/toggle(class)
   card.innerHTML = `
   <img

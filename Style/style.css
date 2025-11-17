@@ -90,7 +90,7 @@
         transform: translate(0, 0);
     }
     100% {
-        transform: translate(-50%, 0); 
+        transform: translate(-130%, 0); 
     }
 }
 .container text-center{
@@ -100,5 +100,12 @@
     text-align: center;
     
 }
+
+
+
+
+
+
+
 
 

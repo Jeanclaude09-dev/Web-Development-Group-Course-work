@@ -4,7 +4,7 @@
 .hero-section {
   width: 100%;
   height: 30vh;
-  background: url(/Images/gg.jpg);
+  background: url(../Images/gg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;

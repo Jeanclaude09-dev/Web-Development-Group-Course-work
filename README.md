@@ -1,3 +1,31 @@
-this is the repository for the group course work
-Please kindly write your scripts inside your .html
-only the member with the landing page will the "index.html"
+## Table of content
+
+- [Group composition](#group-composition)
+- [Screenshot](#pages-screenshot)
+- [Links](#links)
+- [Built with](#built-with)
+
+## Group composition
+
+- RWOTOMIYA Francis
+- NAHWERA Braverly
+- NDHOBE Ronald
+- NKOONGOLO Mashinda
+- ACIBU Stephen
+
+### Website Theme
+
+### Pages screenshot
+
+- Home
+
+- About
+
+- Menu
+  ![](<Images/Screenshots/Menu%20page(1).png>)
+  ![](<Images/Screenshots/Menu%20page(2).png>)
+  ![](<Images/Screenshots/Menu%20page(3).png>)
+
+- Blog
+
+- Contact

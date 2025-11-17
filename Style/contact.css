@@ -104,3 +104,14 @@ textarea {
 .contact button:hover {
   background-color: rgb(253, 232, 191);
 }
+
+@media (max-width: 800px) {
+  .contact-form {
+    width: 100%;
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+  .contact {
+    width: 100%;
+  }
+}

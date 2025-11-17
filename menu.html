@@ -9,37 +9,35 @@
     <link rel="stylesheet" href="Style/animation.css" />
     <title>Document</title>
   </head>
-  <body>
+  <body class="pt-14">
     <header>
       <nav
-        class="h-14 w-full bg-[#fffffff2] text-black flex justify-around items-center sticky top-0 p-1"
+        class="text-white bg-black flex justify-around items-center p-2 fixed top-0 w-full h-14"
       >
-        <div class="font-bold text-2xl cursor-pointer">LAPRAREL RESTAURANT</div>
-        <ul class="list-none flex gap-3">
-          <li>
-            <a href="index.html">HOME</a>
-          </li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="menu.html">MENU</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
-          <li><a href="blog.html">BLOG</a></li>
-        </ul>
-        <div class="flex">
-          <img
-            src="Images/Icons/shopping_bag_30dp_000000_FILL0_wght400_GRAD0_opsz24.svg"
-            aria-hidden="true"
-            class="cursor-pointer mr-3"
+        <div class="flex uppercase gap-2 items-center">
+          <div class="text-2xl font-bold">LAPRAREL RESTAURANT</div>
+          <ul class="flex list-none gap-2 items-center">
+            <li><a href="index.html" class="decoration-none">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+          </ul>
+        </div>
+        <div>
+          <input
+            type="search"
+            placeholder="search Menu items"
+            class="border p-2 bg-white text-black rounded-lg"
           />
-          <img
-            src="Images/Icons/search_30dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"
-            aria-hidden="true"
-            class="cursor-pointer mr-3"
-          />
-          <img
-            src="Images/Icons/favorite_30dp_000000_FILL0_wght400_GRAD0_opsz24.svg"
-            aria-hidden="true"
-            class="cursor-pointer"
-          />
+          <button
+            class="border-[#ffc107] text-[#ffc107] border p-2 rounded-lg hover:bg-[#ffc107] hover:text-black transition-all duration-300"
+          >
+            search
+          </button>
+          <button class="bg-[#ffc107] p-2 rounded-lg text-black">
+            Book A table
+          </button>
         </div>
       </nav>
     </header>

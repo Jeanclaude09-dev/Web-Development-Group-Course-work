@@ -1,0 +1,9 @@
+NKONGOLO Mashinda 2025-B291-22460
+
+Manu section 
+
+To build the design of our menu, I used Tailwind CSS classes to speed up the workflow and relied on JavaScript’s innerHTML to display the elements using a forEach loop.
+
+That’s where the problems started. Using innerHTML to create a card and writing a function to reset the card container was easy. However, finding the correct algorithm to loop through all the data stored in the array—and making sure each piece of data was placed in the right part of the card—was much more challenging.
+
+To solve this, I created a function that contains a for loop. This loop iterates through the array and calls the card component for each item, passing the correct data as the corresponding index of the array.  

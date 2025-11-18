@@ -95,3 +95,34 @@
 .story {
   text-align: center;
 }
+/**
+ * Function to display shareholder names in the footer.
+ */
+function displayShareholders() {
+    // 1. Define the array of shareholder names
+    const shareholderNames = [
+        "NDHOBE RONALD",
+        "NKOONGOLO MASHINDA",
+        "NAHWERA BRAVERLY",
+        "ACIBU STEPHEN",
+        "RWOTOMIYA FRANCIS"
+    ];
+
+    // 2. Select the footer element by its ID
+    const footerElement = document.getElementById("shareholders-footer");
+
+    // 3. Check if the element was successfully found
+    if (footerElement) {
+        // 4. Create a string of names separated by a bullet point (•)
+        //    .join(" • ") joins the array elements into a single string.
+        const namesString = shareholderNames.join(" • ");
+
+        // 5. Update the footer's content
+        footerElement.innerHTML = `<p><strong>Principal Shareholders:</strong> ${namesString}</p>`;
+    } else {
+        console.error("Could not find the footer element with ID 'shareholders-footer'.");
+    }
+}
+
+// Execute the function once the script loads
+displayShareholders();

@@ -18,8 +18,6 @@
 ### Pages screenshot
 
 - Home
-  "C:\Users\RONNIE\Pictures\Screenshots\Home img.png"
-  "C:\Users\RONNIE\Pictures\Screenshots\home img 2.png"
 
 - About
 

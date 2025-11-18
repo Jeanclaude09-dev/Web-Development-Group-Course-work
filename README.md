@@ -24,7 +24,7 @@
 - Menu
   ![](<Images/Screenshots/Menu%20page(1).png>)
   ![](<Images/Screenshots/Menu%20page(2).png>)
-  ![](<Images/Screenshots/Menu%20page(3).png>)
+  ![](<Images/Screenshots/Menu page(3).png>)
 
 - Blog
 

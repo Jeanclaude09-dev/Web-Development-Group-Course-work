@@ -1,85 +1,140 @@
-<!DOCTYPE html>
+
+           <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="Style/style.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-  </head>
-  <body>
-    <header>
-      <nav
-        class="h-14 w-full bg-[#fffffff2] text-black flex justify-around items-center sticky top-0 p-1"
-      >
-        <div class="font-bold text-2xl cursor-pointer">LOGO</div>
-        <ul class="list-none flex gap-3">
-          <li>
-            <a href="index.html">HOME</a>
-          </li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="menu.html">MENU</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
-          <li><a href="blog.html">BLOG</a></li>
-        </ul>
-        <div class="flex">
-          <img
-            src="Images/Icons/shopping_bag_30dp_000000_FILL0_wght400_GRAD0_opsz24.svg"
-            aria-hidden="true"
-            class="cursor-pointer mr-3"
-          />
-          <img
-            src="Images/Icons/search_30dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"
-            aria-hidden="true"
-            class="cursor-pointer mr-3"
-          />
-          <img
-            src="Images/Icons/favorite_30dp_000000_FILL0_wght400_GRAD0_opsz24.svg"
-            aria-hidden="true"
-            class="cursor-pointer"
-          />
-        </div>
-      </nav>
-    </header>
-    <hr />
-    <main></main>
-    <footer class="bg-[#fffffff2]">
-      <section class="footer">
-        <article class="footer-left">
-          <h1 class="">LOGO</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-            deserunt temporibus officiis adipisci repellendus quod, ratione,
-            quisquam cumque modi voluptatum a veniam commodi ipsa nulla ab totam
-            culpa dolore? Vitae.
-          </p>
-          <div class="footer-icons"></div>
-        </article>
-        <article class="footer-right">
-          <div class="links">
-            <h3 class="footer-menu">Quick links</h3>
-            <a href="#">Lorem, ipsum.</a>
-            <a href="#">Lorem, ipsum.</a>
-            <a href="#">Lorem, ipsum.</a>
-            <a href="#">Lorem, ipsum.</a>
-          </div>
-          <div class="links">
-            <h3 class="footer-menu">Social</h3>
-            <a href="#">Lorem, ipsum.</a>
-            <a href="#">Lorem, ipsum.</a>
-            <a href="#">Lorem, ipsum.</a>
-            <a href="#">Lorem, ipsum.</a>
-          </div>
-          <div class="links">
-            <h3 class="footer-menu">Legal</h3>
-            <a href="#">Terms of service</a>
-            <a href="#">Privacy policy</a>
-            <a href="#">Cookie policy</a>
-          </div>
-        </article>
-      </section>
-      <hr />
-      <article class="copyright">&copy; Copyright 2025 Our Site</article>
-    </footer>
-  </body>
-</html>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+  .circle-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+  }
+</style>
+
+</head>
+<body>
+    <!--start-->
+    <div class="card text-bg-dark">
+      <div class="ug">
+        <marquee>
+            <img src="./m2.webp" class="card-img" width="300px" height="500px">
+  <img src="./kk1.jpg" class="card-img" width="300px" height="500px">
+        </marquee>
+  </div>
+  <div class="card-img-overlay">
+    <!--start-->
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        ABOUT US
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body"> In the beginning, there was a fire at the hearth, a warm meal and a roof over one‘s head. Thus begins the history of the hotel industry. People have been providing hospitality for weary travellers since our ancestors inhabited the earth about 100,000 to 200,000 years ago.
+
+Some years down the line, in the age of antiquity, spas and bathhouses often provided sleeping facilities and were popular attractions for those seeking rest and relaxation.
+
+In medieval times, it was mostly cloisters and abbeys that provided travellers with accommodation. It was also during this period that more and more inns and guesthouses were opened on popular trade routes to provide food and lodging for travelling merchants and their horses.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        OUR MISSION STATEMENTS
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Focus on service: To provide exceptional service and create memorable experiences for every guest, every time.
+Focus on values: To deliver excellent hospitality through our core values of service, loyalty, passion, innovation, integrity, and respect.
+Focus on experience: To craft time-enriching experiences that transform the ordinary to the exceptional and guests to fans.
+Focus on community: To grow our beloved local communities by promoting interaction between people and products.</div>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        OUR VISSION STATEMENTS
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Focus on leadership: To be recognized as a highly respected industry leader in hotel development and management.
+Focus on guest loyalty: To be the preferred hotel for guests, leading to increased customer loyalty.
+Focus on brand recognition: To be the company of choice for guests, owners, and talent.
+Focus on global presence: To be a successful global hotel group. </div>
+    </div>
+  </div>
+</div>
+    <!--end-->
+    <!--start-->
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="./mmp1.jpg" class="circle-img" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">ABOUT OUR MANAGER</h5>
+        <p class="card-text">
+          A great leader who knows how to motivate, inspire, and build a strong team.
+          An exceptional manager who balances excellent operational and financial control with genuine care for the team.
+          A supportive and effective leader who knows how to delegate and empower their staff.
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">MURUNGI PEACH</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+      <img src="./kk2.jpg" class="circle-img" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">OUR METHODS OF PAYMENT</h5>
+        <p class="card-text">
+          Credit and debit cards: Remain the most common and widely accepted forms of payment.<br>
+          Mobile wallets: Apps like Apple Pay, Google Pay, and Samsung Pay offer fast, secure, and contactless transactions.<br>
+          Bank transfers: A secure option for guests who prefer not to use cards, especially for larger bookings.
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">FRANCIS MUKIBI</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+      <img src="./mmp2.jpg" class="circle-img" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">ABOUT OUR WORKERS</h5>
+        <p class="card-text">
+          Dedication and Authenticity: The team's genuine commitment to providing a positive guest experience is a core strength.<br>
+          Attention to Detail: The staff's meticulous approach ensures that small details are not overlooked.<br>
+          Warmth and Approachability: Every team member is trained to be attentive, approachable, and genuinely friendly.
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">JEAN CLAUD</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!--end-->
+  </div>
+</div>
+    <!--end-->
+    
+</body>
+</html> 

@@ -17,16 +17,18 @@
 
 ### Pages screenshot
 
-- Home
+# Home
 
-- About
+# About
 
-- Menu
-  ![](<Images/Screenshots/Menu%20page(1).png>)
-  ![](<Images/Screenshots/Menu%20page(2).png>)
-  ![](<Images/Screenshots/Menu page(3).png>)
+# Menu
 
-- Blog
+![](<Images/Screenshots/Menu%20page(1).png>)
+![](<Images/Screenshots/Menu%20page(2).png>)
+![](<Images/Screenshots/Menu page(3).png>)
 
-- Contact
-![](<images/screenshots/contact%20.png>)
+# Blog
+
+# Contact
+
+![](images/screenshots/contact.png)

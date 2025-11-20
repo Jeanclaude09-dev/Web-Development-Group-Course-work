@@ -2,12 +2,52 @@ body {
   padding-top: 54px;
 }
 
-.footer {
+footer {
   background-color: black;
-  padding: 50px;
-  text-align: center;
+  color: white;
+}
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 0 15px 0;
+  padding: 20px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+.footer-left h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-right {
   display: flex;
   justify-content: space-around;
-  font-weight: bolder;
-  color: aqua;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+.copyright {
+  padding: 15px 0;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .footer {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .footer-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
 }

@@ -5,6 +5,24 @@
 }
 
 @import "tailwindcss";
+@font-face {
+  font-family: "Poppins";
+  src: url(../Fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "Inter";
+  src: url(../Fonts/Inter/Inter-VariableFont_opsz\wght.ttf);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins";
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
 
 footer {
   background-color: black;

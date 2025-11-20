@@ -1,3 +1,21 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(../Fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "Inter";
+  src: url(../Fonts/Inter/Inter-VariableFont_opsz\wght.ttf);
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins";
+}
+
 .image-background-holder {
   position: relative;
   background-color: black;

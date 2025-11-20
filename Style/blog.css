@@ -1,5 +1,20 @@
 body {
   padding-top: 54px;
+  font-family: "Inter", sans-serif;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../Fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "Inter";
+  src: url(../Fonts/Inter/Inter-VariableFont_opsz\wght.ttf);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins";
 }
 
 footer {
